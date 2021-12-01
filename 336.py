@@ -33,7 +33,7 @@ def ToOLA():
 	def Comb():
 		for lik in range(5000):
 			A0=random.randint(1000000, 9999999)
-			H0=("+98930"+str(A0)+":0930"+str(A0))
+			H0=("+98990"+str(A0)+":0990"+str(A0))
 			with open(".1.txt", "a") as Ccom:
 				Ccom.write(str(H0)+"\n")
 	Comb()
